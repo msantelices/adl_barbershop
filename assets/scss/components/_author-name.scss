@@ -1,0 +1,29 @@
+.author__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.author__name {
+    font-style: italic;
+    font-weight: 900;
+}
+
+.author__list {
+    list-style: none;
+    padding: 0;
+}
+
+.author__link {
+    text-decoration: none;
+    color: $spanish-pink;
+
+    &--hover:hover {
+        color: red;
+    }
+
+    &--active:active {
+        color: green;
+    }
+}
